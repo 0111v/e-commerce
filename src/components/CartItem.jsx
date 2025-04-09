@@ -1,12 +1,13 @@
 import { useCart } from "../context/CartContext";
 
 function CartItem({ item }) {
-  const { removeFromCart } = useCart();
+  const { removeFromCart, increaceQty, decreaseQty } = useCart();
 
   return (
-    <div className="flex justify-between items-center border p-2 mb-2 rounded">
+    <div className="product-card">
       <div>
         <h2 className="font-medium">{item.name}</h2>
+        <p>{item.quantity}</p>
         <p>${item.price}</p>
       </div>
       <button
@@ -15,6 +16,8 @@ function CartItem({ item }) {
       >
         Remove
       </button>
+      <button onClick={() => increaceQty(item.id)}>+</button>
+      <button onClick={() => decreaseQty(item.id)} disabled={item.quantity === 1}>-</button>
     </div>
   );
 }

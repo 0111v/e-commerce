@@ -4,7 +4,7 @@ function ProductCard({ product }) {
   const { addToCart } = useCart();
 
   return (
-    <div className="border p-4 rounded-lg shadow">
+    <div className="product-card">
       <h2 className="text-xl font-semibold">{product.name}</h2>
       <p>${product.price}</p>
       <button
