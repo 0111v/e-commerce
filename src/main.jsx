@@ -9,7 +9,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/e-commerce">
         <App />
       </BrowserRouter>
     </CartProvider>

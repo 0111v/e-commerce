@@ -1,12 +1,68 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛍️ E-Commerce App (React + Vite)
 
-Currently, two official plugins are available:
+A clean, responsive e-commerce front-end built with **React**, **Vite**, and **Fake Store API**. This project simulates an online store experience, showcasing product listing, dynamic routing, cart management, and state persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ **This is a Work in Progress (WIP)**  
+> More features, styling, and polish are coming soon!
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+👉 [Click here to view the live app](https://0111v.github.io/e-commerce)
+
+---
+
+## ✨ Features
+
+- 🛒 Browse products dynamically from a live API (Fake Store API)
+- 📦 Product details page with dynamic route (`/product/:id`)
+- ➕ Add items to cart
+- 🔁 Cart state persists using `localStorage`
+- 🌐 Responsive layout using CSS Grid
+- 🔄 React Router for client-side navigation
+
+---
+
+## 🧠 Tech Stack
+
+- **React** (functional components, hooks)
+- **Vite** (fast dev/build)
+- **React Router DOM**
+- **Fake Store API**
+- **Context API** for global cart state
+- **LocalStorage** for persistence
+
+---
+
+## 🛠️ To Do (Work in Progress)
+
+- [ ] Checkout page  
+- [ ] Quantity controls in cart  
+- [ ] Remove item confirmation  
+- [ ] UI polish (hover effects, transitions)  
+- [ ] Filter by category  
+- [ ] Mobile improvements
+
+---
+
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/0111v/e-commerce.git
+cd e-commerce
+npm install
+npm run dev
+```
+
+
+
+## 🧑‍💻 About Me
+
+I’m a computer science degree student. This project is part of my personal portfolio to demonstrate real-world skills.
+
+- 💼 I'm currently looking for opportunities!
+- 📬 [Let's connect on LinkedIn](https://www.linkedin.com/in/victor-oliveira-855844249/)
+- 📧 Email: victor_oln@icloud.com
+
