@@ -38,12 +38,12 @@ A clean, responsive e-commerce front-end built with **React**, **Vite**, and **F
 
 ## 🛠️ To Do (Work in Progress)
 
-- [ ] Checkout page  
-- [ ] Quantity controls in cart  
+- [x] Checkout page  
+- [x] Quantity controls in cart  
 - [ ] Remove item confirmation  
 - [ ] UI polish (hover effects, transitions)  
 - [ ] Filter by category  
-- [ ] Mobile improvements
+- [x] Mobile improvements
 
 ---
 
